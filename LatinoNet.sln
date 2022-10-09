@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business Rules",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNet.Entities", "LatinoNet.Entities\LatinoNet.Entities.csproj", "{24FFFB1B-AC1C-4D3C-AFD4-DB8B2B996764}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adapters", "Interface Adapters", "{84C17C80-CC8A-47B0-9863-55A2FB3DE496}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{575C6162-509C-4164-ABAC-75A053E7E421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinoNet.RepositoryEFCore", "LatinoNet.RepositoryEFCore\LatinoNet.RepositoryEFCore.csproj", "{2FED48DF-4DD4-4565-A9A4-414AD9F2A639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +23,18 @@ Global
 		{24FFFB1B-AC1C-4D3C-AFD4-DB8B2B996764}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24FFFB1B-AC1C-4D3C-AFD4-DB8B2B996764}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24FFFB1B-AC1C-4D3C-AFD4-DB8B2B996764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FED48DF-4DD4-4565-A9A4-414AD9F2A639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FED48DF-4DD4-4565-A9A4-414AD9F2A639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FED48DF-4DD4-4565-A9A4-414AD9F2A639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FED48DF-4DD4-4565-A9A4-414AD9F2A639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{24FFFB1B-AC1C-4D3C-AFD4-DB8B2B996764} = {BA6C9372-2984-4BFA-A91E-7BA9E74A8E6D}
+		{575C6162-509C-4164-ABAC-75A053E7E421} = {84C17C80-CC8A-47B0-9863-55A2FB3DE496}
+		{2FED48DF-4DD4-4565-A9A4-414AD9F2A639} = {575C6162-509C-4164-ABAC-75A053E7E421}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2757503D-F95A-4E6B-8200-1F383231163A}
